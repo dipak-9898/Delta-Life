@@ -597,29 +597,6 @@
 		<div class="owl-carousel owl-theme">
 			<div class="item">
 		<div class="mrg-2">
-			<div class="box-2 animate__lightSpeedInLeft animatable">
-				<div class="bg-2">
-					<p>So grateful to have found such a wonderful product, friendly staff and affordable prices. This whole experience has benefited my life in so many positive...</p>
-					<div class="bg-2-pr">
-						<div class="table">
-							<div class="table-cell">
-								<img src="images/image-7.png" alt="">
-							</div>
-							<div class="table-cell">
-								<h4>Chris Columbus</h4>
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="bg-2-ss">
-						<img src="images/google-l.png" alt="">
-					</div>
-				</div>
-			</div>
 			<div class="box-2">
 				<div class="bg-2">
 					<p>So grateful to have found such a wonderful product, friendly staff and affordable prices. This whole experience has benefited my life in so many positive...</p>
@@ -643,29 +620,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box-2 animate__lightSpeedInRight animatable">
-				<div class="bg-2">
-					<p>So grateful to have found such a wonderful product, friendly staff and affordable prices. This whole experience has benefited my life in so many positive...</p>
-					<div class="bg-2-pr">
-						<div class="table">
-							<div class="table-cell">
-								<img src="images/image-7.png" alt="">
-							</div>
-							<div class="table-cell">
-								<h4>Chris Columbus</h4>
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="bg-2-ss">
-						<img src="images/google-l.png" alt="">
-					</div>
-				</div>
-			</div>
+			
 		</div>
 		</div>
 		<div class="item">
@@ -693,6 +648,12 @@
 					</div>
 				</div>
 			</div>
+			
+			
+		</div>
+		</div>
+			<div class="item">
+		<div class="mrg-2">
 			<div class="box-2">
 				<div class="bg-2">
 					<p>So grateful to have found such a wonderful product, friendly staff and affordable prices. This whole experience has benefited my life in so many positive...</p>
@@ -716,29 +677,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box-2">
-				<div class="bg-2">
-					<p>So grateful to have found such a wonderful product, friendly staff and affordable prices. This whole experience has benefited my life in so many positive...</p>
-					<div class="bg-2-pr">
-						<div class="table">
-							<div class="table-cell">
-								<img src="images/image-7.png" alt="">
-							</div>
-							<div class="table-cell">
-								<h4>Chris Columbus</h4>
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-								<img src="images/star.png" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="bg-2-ss">
-						<img src="images/google-l.png" alt="">
-					</div>
-				</div>
-			</div>
+			
 		</div>
 		</div>
 	</div>
@@ -750,15 +689,15 @@
 <!-- -------------------footer---section---start -->
 
 <section class="footer container">
-	<div class="row">
-		<div class="footer-left animate__lightSpeedInLeft animatable">
+	<div class="row animate__fadeIn animatable">
+		<div class="footer-left">
 			<div class="f-logo">
 				<a href="" title="f-logo"><img src="images/f-logo.png" alt=""></a>
 			</div>
 			<p>Lorem ipsum is typically a corrupted version of 'De finibus bonorum et malorum', a 1st century BC</p>
 		</div>
 		<div class="footer-right">
-			<div class="footer-right-row animate__fadeInUp animatable">
+			<div class="footer-right-row">
 				<h2>Company</h2>
 				<ul>
 					<li><a href="" title="About us">About us</a></li>
@@ -769,7 +708,7 @@
 					<li><a href="" title="Demo">Demo</a></li>
 				</ul>
 			</div>
-			<div class="footer-right-row animate__fadeInUp animatable">
+			<div class="footer-right-row">
 				<h2>Support</h2>
 				<ul>
 					<li><a href="" title="Help Center">Help Center</a></li>
@@ -779,7 +718,7 @@
 					<li><a href="" title="Feedback">Feedback</a></li>
 				</ul>
 			</div>
-			<div class="footer-right-row animate__fadeInUp animatable">
+			<div class="footer-right-row">
 				<h2>Media</h2>
 				<ul>
 					<li><a href="" title="Facebook">Facebook</a></li>
@@ -788,7 +727,7 @@
 					<li><a href="" title="Instagram">Instagram</a></li>
 				</ul>
 			</div>
-			<div class="footer-right-row animate__lightSpeedInRight animatable">
+			<div class="footer-right-row">
 				<h2>Subscribe Us</h2>
 				<input type="email" name="" placeholder="Your email here...">
 				<button>Subscribe</button>
@@ -841,7 +780,18 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     items: 1,
-    autoplay:true
+    autoplay:true,
+    responsive:{
+        767:{
+            items:1
+        },
+        979:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
 })
 
 
